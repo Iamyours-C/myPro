@@ -1,0 +1,516 @@
+/*字体大小,颜色,背景色,行高,外边距,内边距,浮动,清除浮动,超出隐藏*/
+/*公共封装*/
+/*字体大小：12px 14px 16px 18px 20px 22px 24px 30px 36px*/
+
+.font_12 {
+	font-size: 12px;
+}
+
+.font_14 {
+	font-size: 14px;
+}
+
+.font_16 {
+	font-size: 16px;
+}
+
+.font_18 {
+	font-size: 18px;
+}
+
+.font_20 {
+	font-size: 20px;
+}
+
+.font_22 {
+	font-size: 22px;
+}
+
+.font_24 {
+	font-size: 24px;
+}
+.font_28 {
+	font-size: 28px;
+}
+
+.font_30 {
+	font-size: 30px;
+}
+
+.font_36 {
+	font-size: 36px;
+}
+/*颜色*/
+.textWhite {
+	color:#fff;
+	/*白色*/
+}
+
+.text_000 {
+	color: #000;
+}
+.text_Main {
+	/*主色调*/
+	color: #ff2d52;
+}
+.text_Main_active {
+	/*激活颜色*/
+	color: #ec193e;
+}
+/*字体灰色:333 666 aaa 999*/
+.text_dark {
+	color:#333;
+}
+
+.text_darkgray {
+	color:#aaa;
+}
+
+.text_gray {
+	color: #666;
+}
+
+.text_lightgray{
+	color: #999;
+}
+.tetx_weight {
+	font-weight:bold;
+}
+.text_ff6600{
+	color: #ff6600;
+}
+.text-ccc {
+	color: #ccc;
+}
+/*背景色:f1f1f1 f2f2f2 f7f7f7*/
+.bg_mian {
+	background: #FF2D52;
+}
+.bg_mian_active {
+	background: #EC193E;
+}
+.bg_gray{
+	background: #f7f7f7;
+}
+.bg_right{
+	background: #535353;
+}
+
+/*行高22px 24px 36px 48px*/
+.line_22 {
+	line-height: 22px;
+}
+
+
+.line_24 {
+	line-height: 24px;
+}
+
+
+.line_36 {
+	line-height: 36px;
+}
+
+
+.line_48 {
+	line-height: 48px;
+}
+
+
+/*浮动*/
+.float_L {
+	float: left;
+}
+
+.float_R {
+	float: right;
+}
+/*清除浮动*/
+/*伪元素:after before*/
+.clearFix:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+/*外边距5 10 15 20 25 30*/
+.margin_5 {
+	margin: 5px;
+}
+.margin_10 {
+	margin: 10px;
+}
+.margin_15 {
+	margin: 15px;
+}
+.margin_20 {
+	margin: 20px;
+}
+.margin_25 {
+	margin: 25px;
+}
+.margin_30 {
+	margin: 30px;
+}
+/*外左边距*/
+.margin_L_5 {
+	margin-left: 5px;
+}
+.margin_L_10 {
+	margin-left: 10px;
+}
+.margin_L_15 {
+	margin-left: 15px;
+}
+.margin_L_20 {
+	margin-left: 20px;
+}
+.margin_L_25 {
+	margin-left: 25px;
+}
+.margin_L_30 {
+	margin-left: 30px;
+}
+/*外右边距*/
+.margin_R_5 {
+	margin-right: 5px;
+}
+.margin_R_10 {
+	margin-right: 10px;
+}
+.margin_R_15 {
+	margin-right: 15px;
+}
+.margin_R_20 {
+	margin-right: 20px;
+}
+.margin_R_25 {
+	margin-right: 25px;
+}
+.margin_R_30 {
+	margin-right: 30px;
+}
+/*外左右边框*/
+.margin_LR_5 {
+	margin: 0 5px;
+}
+
+.margin_LR_10 {
+	margin: 0 10px;
+}
+
+.margin_LR_15 {
+	margin: 0 15px;
+}
+
+.margin_LR_20 {
+	margin: 0 20px;
+}
+
+.margin_LR_25 {
+	margin: 0 25px;
+}
+
+.margin_LR_30 {
+	margin: 0 30px;
+}
+/*外上边框*/
+.margin_T_5 {
+	margin-top: 5px;
+}
+.margin_T_10 {
+	margin-top: 10px;
+}
+.margin_T_15 {
+	margin-top: 15px;
+}
+.margin_T_20 {
+	margin-top: 20px;
+}
+.margin_T_25 {
+	margin-top: 25px;
+}
+.margin_T_30 {
+	margin-top: 30px;
+}
+/*外下边框*/
+
+.margin_B_5 {
+	margin-bottom: 5px;
+}
+.margin_B_10 {
+	margin-bottom: 10px;
+}
+.margin_B_15 {
+	margin-bottom: 15px;
+}
+.margin_B_20 {
+	margin-bottom: 20px;
+}
+.margin_B_25 {
+	margin-bottom: 25px;
+}
+.margin_B_30 {
+	margin-bottom: 30px;
+}
+/*外上下边框*/
+.margin_TB_5 {
+	margin: 5px 0;
+}
+.margin_TB_10 {
+	margin: 10px 0;
+}
+.margin_TB_15 {
+	margin: 15px 0;
+}
+.margin_TB_20 {
+	margin: 20px 0;
+}
+.margin_TB_25 {
+	margin: 25px 0;
+}
+.margin_TB_30 {
+	margin: 30px 0;
+}
+
+/*内边距*/
+
+.padding_5 {
+	padding: 5px;
+}
+
+.padding_10 {
+	padding: 10px;
+}
+.padding_15 {
+	padding: 15px;
+}
+.padding_20 {
+	padding: 20px;
+}
+.padding_25 {
+	padding: 25px;
+}
+.padding_30 {
+	padding: 30px;
+}
+
+/*内左右边距*/
+.padding_LR_5 {
+	padding: 0 5px;
+}
+
+.padding_LR_10 {
+	padding: 0 10px;
+}
+
+.padding_LR_15 {
+	padding: 0 15px;
+}
+
+.padding_LR_20 {
+	padding: 0 20px;
+}
+
+.padding_LR_25 {
+	padding: 0 25px;
+}
+
+.padding_LR_30 {
+	padding: 0 30px;
+}
+/*内上下边距*/
+.padding_TB_5 {
+	padding: 5px 0;
+}
+
+.padding_TB_10 {
+	padding: 10px 0;
+}
+
+.padding_TB_15 {
+	padding: 15px 0;
+}
+
+.padding_TB_20 {
+	padding: 20px 0;
+}
+
+.padding_TB_25 {
+	padding: 25px 0;
+}
+
+.padding_TB_30 {
+	padding: 30px 0;
+}
+
+/*内上边距*/
+.padding_T_5 {
+	padding-top: 5px;
+}
+
+.padding_T_10 {
+	padding-top: 10px;
+}
+
+.padding_T_15 {
+	padding-top: 15px;
+}
+
+.padding_T_20 {
+	padding-top: 20px;
+}
+
+.padding_T_25 {
+	padding-top: 25px;
+}
+
+.padding_T_30 {
+	padding-top: 30px;
+}
+/*内右边距*/
+.padding_B_5 {
+	padding-bottom: 5px;
+}
+
+.padding_B_10 {
+	padding-bottom: 10px;
+}
+
+.padding_B_15 {
+	padding-bottom: 15px;
+}
+
+.padding_B_20 {
+	padding-bottom: 20px;
+}
+
+.padding_B_25 {
+	padding-bottom: 25px;
+}
+
+.padding_B_30 {
+	padding-bottom: 30px;
+}
+/*内左边距*/
+.padding_L_5 {
+	padding-left: 15px;
+}
+
+.padding_L_10 {
+	padding-left: 10px;
+}
+
+.padding_L_15 {
+	padding-left: 15px;
+}
+
+.padding_L_20 {
+	padding-left: 20px;
+}
+
+.padding_L_25 {
+	padding-left: 25px;
+}
+
+.padding_L_30 {
+	padding-left: 30px;
+}
+/*内右边距*/
+.padding_R_5 {
+	padding-right: 5px;
+}
+
+.padding_R_10 {
+	padding-right: 10px;
+}
+
+.padding_R_15 {
+	padding-right: 15px;
+}
+
+.padding_R_20 {
+	padding-right: 20px;
+}
+
+.padding_R_25 {
+	padding-right: 25px;
+}
+
+.padding_R_30 {
+	padding-right: 30px;
+}
+/*超出隐藏*/
+.FlowHidden {
+	overflow: hidden;
+}
+/*文字超出 ，以三个点和一行显示*/
+.text_ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	/*不允许换行*/
+	white-space: nowrap;
+}
+
+/*超出隐藏，上面是一行内容的时候，当有两行的内容时*/
+/*.text_ellipsis1 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	/*作为唐星伸缩盒子模型显示*/
+	/*display: -webkit-box;*/
+	/*设置伸缩盒子的子元素排列方式————从上到下垂直排列*/
+	/*-webkit-box-orient: vertical;*/
+	/*显示的行*/
+	/*-webkit-line-clamp: 2;*/
+/*}*/
+/*字体对齐*/
+.text_center {
+	text-align: center;
+}
+
+.text_left {
+	text-align: left;
+}
+
+.text_right {
+	text-align: right;
+}
+
+/*封装按钮*/
+
+.button {
+	display: inline-block;
+	background: #fff;
+	border: 1px solid #e2e2e2;
+	border-radius: 5px;
+	padding: 5px 10px;
+}
+
+.button.button_main,.button_main_hover:hover{
+	background: #FF2D52;
+	color: #fff;
+	/*border: none;*/
+	border-color: #FF2D52;
+}
+
+.button.button_main:hover {
+	background-color: #EC193E;
+	border-color: #EC193E;
+}
+/*删除线*/
+.Line-Through {
+	text-decoration: line-through;
+}
+ /*字体颜色*/
+.font-color222 {
+	color: #222;
+}
+/*文本左右对齐*/
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}

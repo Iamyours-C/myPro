@@ -1,0 +1,279 @@
+.nav_classify .main_nav {
+    background: #EC193E;
+}
+/*轮播部分*/
+.BannerPart {
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+.banner_box {
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+.banner_lists li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 0;
+}
+.banner_lists img {
+	width: 100%;
+	height: 400px;
+}
+/*滑动的点*/
+.slidDdots {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -44px;
+}
+.slidDdots li {
+	width: 12px;
+	height: 12px;
+	float: left;
+	margin-left: 10px;
+	border-radius: 50%;
+	background: #FE7258;
+	opacity: 0.5;
+	cursor: pointer;
+}
+.slidDdots .onmove {
+	background: lawngreen;
+	cursor: 0.5;
+}
+/*会员中心*/
+.memberCenter {
+	width: 270px;
+	height: 325px;
+	background: #fff;
+	position: absolute;
+	top: 30px;
+	left: 55px;
+}
+.member_cont .head_img {
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background: lightblue;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 90px;
+	overflow: hidden;
+	font-size: 0;
+}
+.head_img img {
+	max-width: 90px;
+	max-height: 90px;
+	vertical-align: middle;
+}
+.member_cont p{
+	text-align: center;
+}
+.member_info {
+	height: 125px;
+	margin-left: 15px;
+}
+.member_info .welcomeBack {
+	color: #ff617d;
+	line-height: 20px;
+}
+.member_info .progressBar {
+	width: 120px;
+	height: 12px;
+	border: 1px solid #E2E2E2;
+	position: relative;
+}
+.bar {
+	display: inline-block;
+	width: 60px;
+	height: 11px;
+	background: #FF2D52;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.sign_in {
+	width: 60px;
+	height: 24px;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 24px;
+	background: #FF2D52;
+	position: relative;
+}
+.sign_in .sign{
+	color: #fff;
+}
+.sign_in .signed {
+	display: inline-block;
+	width: 60px;
+	height: 24px;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 24px;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.memTop {
+	border-bottom: 1px solid #E2E2E2;
+	padding-bottom: 20px;
+	margin: 30px 20px 0 20px;
+}
+.mycredits img{
+	float: left;
+	padding-top: 2px;
+}
+/*优惠券兑换*/
+/*内容*/
+.discont_conts {
+	min-height: 220px;
+	border:1px solid #E2E2E2;
+	box-sizing: border-box;
+	padding: 20px 0;
+}
+.discont_cont {
+	width: 276px;
+	height: 180px;
+	background: #fff9f5;
+	position: relative;
+	margin-left: 19px;
+	overflow: hidden;
+}
+.discont_cont .valuePrice {
+	min-height: 102px;
+	border: 1px solid #E2E2E2;
+	border-bottom: 1px dotted #E2E2E2;
+	
+}
+.valuePrice .face_value {
+	width: 102px;
+	height: 102px;
+	line-height: 102px;
+	text-align: center;
+}
+.valuePrice .face_txt {
+	margin-top: 22px;
+	line-height: 20px;
+}
+/*白色的圆*/
+.discont_cont .coverLeft {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	left: -16px;
+	top: 50%;
+	z-index: 2;
+	border-right: 1px solid #E2E2E2;
+}
+.discont_cont .coverRight {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	right: -16px;
+	top: 50%;
+	z-index: 2;
+	border-left: 1px solid #E2E2E2;
+}
+/*50积分兑换*/
+.By_integral {
+	text-align: center;
+	height: 76px;
+	line-height: 76px;
+	border: 1px solid #E2E2E2;
+	border-top: 0;
+}
+.By_integral .integral {
+	width: 140px;
+	height: 38px;
+	line-height: 36px;
+	display: inline-block;
+	color: #fff;
+	background: #ff92a5;
+	border: 1px solid #E2E2E2;
+	border-radius: 25px;
+	
+}
+/*限时兑换*/
+.exchange .exchangeTitle {
+	width: 160px;
+	height: 60px;
+	line-height: 57px;
+	border-bottom: 3px solid #FF2D52;
+	color:#2B2B2B;
+	padding-left: 20px;
+}
+.exchange .exchange_conts {
+	min-height: 370px;
+	border:1px solid #E2E2E2;
+	padding-bottom: 20px;
+	/*box-sizing: border-box;*/
+}
+.exchange .exchange_conts .exchange_cont {
+	width: 18%;
+	height: 330px;
+	border: 1px solid #E2E2E2;
+	text-align: center;
+	line-height: 26px;
+	margin: 20px 0 0 20px;
+	position: relative;
+	cursor: pointer;
+}
+.exchange_cont img {
+	width: 100%;
+	/*height: 100%;*/
+}
+.exchange_cont .have {
+	color: #fff;
+	width: 148px;
+	height: 36px;
+	background: #ff2d52;
+	cursor: pointer;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 36px;
+	margin: 0 auto;
+}
+.exchange_cont .have:hover {
+	background: #ec193e;
+	color: #fff;
+}
+.exchange_cont .finished {
+	width: 148px;
+	height: 36px;
+	background: #999999;
+	color: #fff;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 36px;
+	margin: 0 auto;
+}
+
+.exchange_conts .moveEffect {
+	width: 216px;
+	height: 330px;
+	/*background: red;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.exchange_cont:hover .moveEffect {
+	display: block;
+	border: 2px solid #FF2D52;
+}
+/*精品兑换*/
+.exchange .credits {
+	color: #ff778a;
+}

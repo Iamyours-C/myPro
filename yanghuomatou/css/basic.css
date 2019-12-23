@@ -1,0 +1,525 @@
+/*主要用于页面头部,尾部,侧边栏的样式*/
+/*模块封装*/
+.header_nav {
+	/*min-width: 1200px;*/
+	/*height: 35px;*/
+	line-height: 34px;
+	border-bottom: 1px solid #ddd;
+}
+.header_nav .rightcont {
+	margin-right: 15px;
+}
+/*搜索*/
+.search_detail {
+	margin-left: 190px;
+	
+}
+.search_box {
+	border: 2px solid #FF2D52;
+	width: 430px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 30px;
+	font-size: 0;
+	position: relative;
+}
+.search_box .search_ico{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.search_box a{
+	display: inline-block;
+	width: 80px;
+	height: 38px;
+	line-height: 38px;
+	font-size: 16px;
+	text-align: center;
+}
+
+input{
+	width: 316px;
+	border: 0;
+	height:36px;
+}
+
+.search {
+	height: 76px;
+}
+/*主导航*/
+.nav_content {
+	height: 41px;
+	line-height: 40px;
+}
+.nav_classify {
+	width: 200px;
+	position: relative;
+}
+.main_nav {
+	height: 41px;
+}
+.nav_classify:hover {
+	background: #EC193E;
+}
+.classify-lists li{
+	background: #FF2D52;
+	height: 51.3px;
+	line-height: 51px;
+	border-bottom: 1px solid #EC193E;
+	padding:0 20px 0 30px;
+	cursor: pointer;
+}
+.classify-lists li:hover,.nav_classify.static .main_nav {
+	background: #EC193E;
+}
+.classify-lists {
+	display: none;
+	position: absolute;
+	z-index: 100;
+}
+.nav_lists a {
+	color: #fff;
+}
+
+/*二级列表*/
+.second_lists {
+	width: 780px;
+	height: 308px;
+	border: 1px solid #ff7011;
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	display: none;
+	padding: 10px;
+	z-index: 30;
+}
+
+.classify-lists li:hover .second_lists {
+	display: block;
+	background: #fff;
+}
+
+.nav_classify:hover .classify-lists,.nav_classify.static .classify-lists {
+	display: block;
+	width: 200px;
+}
+/*二级列表内容*/
+.second_content {
+	width: 720px;
+	height: 290px;
+	/*background-color: red;*/
+}
+.second_lists_text {
+	width: 50%;
+	padding: 10px;
+}
+.lists_text_top {
+	width: 220px;
+	line-height: 24px;
+	border-bottom: 1px solid #ccc;
+}
+.lists_text_top p{
+	color: #000;
+}
+.lists_text_footer {
+	padding-top: 5px;
+	line-height: 22px;
+}
+.lists_text_footer span,.lists_text_footer a {
+	color: #959595;
+}
+.lists_text_footer a:hover{
+	color: #FF2D52;
+}
+
+/*主导航 导航列表*/
+.detai_list {
+	/*background-color: blue;*/
+	width: 800px;
+	height: 40px;
+	padding: 0 30px;
+	cursor: pointer;
+}
+.detai_list li {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+}
+
+.detai_list li:hover {
+	background: #EC193E;
+}
+
+/*底部*/
+.footer {
+	height: 318px;
+	border-top: 1px solid #FF2D52;
+}
+/*底部上半部分*/
+.safety_explain {
+	height: 60px;
+	width: 60px;
+	font-size: 36px;
+	color: #FF2D52;
+	text-align: center;
+	line-height: 60px;
+	background: url(../img/foot_pic.png) no-repeat;
+}
+.footer_content_top {
+	margin-top: 30px;
+	margin-left: 10px;
+}
+.footer_content_top .explain_txt {
+	margin-left: 15px;
+	padding-top: 10px;
+}
+.footer_content_top .explain_txt p {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.footer_content .footer_content_top li {
+	padding: 25px;
+	float: left;
+	width: 20%;
+}
+/*底部下半部分*/
+/*左*/
+.footer_content_bottom .content_bottom_left{
+	width:956px;
+	height: 136px;
+	margin-top: 30px;
+	padding-left: 10px;
+	/*background-color: red;*/
+	border-right: 1px solid #ccc;
+}
+
+.content_bottom_left .txt_lists li {
+	width: 20%;
+	float: left;
+}
+.content_bottom_left .txt_lists .first {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.content_bottom_left .txt_lists .other {
+	font-size: 12px;
+	line-height: 26px;
+}
+
+/*右*/
+.footer_content_bottom .content_bottom_right {
+	width:226px;
+	height: 136px;
+	margin-top: 20px;
+	padding: 20px;
+	/*background-color: red;*/
+}
+.content_bottom_right .bottom_txt {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.content_bottom_right .bottom_txt .Tel_num {
+	font-size: 24px;
+	font-weight: 200;
+}
+
+.content_bottom_right .bottom_txt p {
+	line-height: 26px;
+}
+
+
+/*底部黑色部分*/
+.downmost {
+	background: #343434;
+	height: 60px;
+	width: 100%;
+	margin-top: 50px;
+	line-height: 60px;
+}
+
+.downmost img {
+	vertical-align: middle;
+	margin-right: 3px;
+}
+.downmost .foot_logo {
+	margin-left: 10px;
+}
+
+.downmost .copyright {
+	margin-left: 20px;
+}
+
+
+/*侧边栏*/
+.sidebar {
+	position: fixed;
+	/*display: block;*/
+	width: 35px;
+	background: #535353;
+	top: 0;
+	right: 0px;
+	bottom: 0;
+	z-index: 4;
+}
+
+.sidebar_panel {
+	width: 100%;
+	height: 100%;
+	/*background: red;*/
+	position: relative;
+	z-index: 11;
+}
+
+.aside_bar {
+	position: absolute;
+	top: 40%;
+	bottom: 0;
+	width: 100%;
+	/*background: white;*/
+}
+.sidebar_detail li{
+	color: #fff;
+	text-align: center;
+	padding: 10px 0;
+	position: relative;
+}
+
+.sidebar_detail li:hover {
+	background: #FF2D52;
+}
+.sidebar_detail li:hover .member_center {
+	display: block;
+}
+
+.member_center {
+	background: #EC193E;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 45px;
+	min-width: 70px;
+	min-height: 39px;
+	line-height: 39px;
+	display: none;
+	cursor: pointer;
+}
+
+.members .select_num {
+	/*border-radius: 20px;*/
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	margin: 10px 10px;
+	border-radius: 50%;
+	background: #FF2D52;
+	color: #fff;
+}
+
+.select_num:hover {
+	background: #fff;
+	color: #FF2D52;
+}
+
+/*二维码、返回顶部*/
+
+.sidebar_coder {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background: #535353;
+} 
+
+.coder .coder_img {
+	position: absolute;
+	display: none;
+	top: 0;
+	right: 45px;
+	/*bottom: 60px;*/
+}
+
+.coder:hover {
+	background: #FF2D52;
+}
+
+.coder_img img {
+	width: 100px;
+	height: 100px;
+}
+.coder:hover .coder_img {
+	display: block;
+}
+
+/*滑动效果*/
+.asideslide {
+	position: absolute;
+	height: 100%;
+	width: 300px;
+	top: 0px;
+	right: -265px;
+	background: #f5f5f5;
+	z-index: 1;
+	/*display: none;*/
+}
+/*滑块内容--购物车*/
+.asideslide .asideslide_carts {
+	width: 100%;
+	height: 100%;
+	/*z-index: 10;*/
+}
+.asideslide_carts.move {
+	background: #FF2D52;
+}
+/*滑块内容--客服消息*/
+/*.asideslide .customer_service {
+	width: 100%;
+	height: 100%;
+}*/
+.customer_service.move {
+	background: #535353;
+}
+/*购物车图标*/
+.asideslide .asideslide_shoppingcart {
+	width: 100%;
+	height: 43px;
+	/*text-align: center;*/
+	line-height: 43px;
+	border-bottom:1px solid #E2E2E2 ;
+	padding-left: 10px;
+}
+.asideslide_shoppingcart .buy_goods {
+	padding-left:10px;
+	font-size: 16px;
+	color: #000;
+}
+/*购物车商品*/
+.asideslide .shopping_goods_cont {
+	padding: 10px;
+	width: 100%;
+	height: 84px;
+	background: #fff;
+	border-bottom: 1px solid #E2E2E2;
+}
+
+.asideslide .shopping_goods_cont img {
+	width: 62px;
+	height: 62px;
+	float: left;
+}
+.asideslide .shopping_goods_cont .goods_cont_explain {
+	width: 206px;
+	height: 36px;
+	margin-left: 8px;
+	overflow: hidden;
+}
+/*价格*/
+.shopping_goods_cont .detail_price {
+	font-weight: bold;
+	color: #FF2D52;
+	font-size: 16px;
+	padding-left: 10px;
+	display: inline-block;
+	padding-top: 8px;
+}
+/*删除*/
+.shopping_goods_cont .delete_goods {
+	float: right;
+	display: inline-block;
+	padding-top: 10px;
+	padding-right: 8px;
+}
+/*结算*/
+.asideslide .carts_priceplus{
+	height: 102px;
+	width: 100%;
+	/*background: blue;*/
+	/*position: relative;*/
+}
+
+.carts_priceplus .going_buy {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border-top: 1px solid #E2E2E2;
+	height: 102px;
+	width: 100%;
+	background: #f5f5f5;
+}
+
+.going_buy p,.going_buy .pay_for{
+	width: 282px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+}
+
+.going_buy span {
+	color: #f6172c;
+}
+.going_buy .pay_for {
+	color: #fff;
+	background: #FF2D52;
+	margin:0 10px;
+	border-radius: 2px;
+}
+.pay_for a{
+	color: #fff;
+}
+/*客服展开*/
+.customer_service .customer_service_online  {
+	width: 100%;
+	height: 116px;
+	line-height: 30px;
+	background: #e8e8e8;
+	padding:42px 0 0 28px;
+}
+.customer_service_online h3{
+	font-weight: bold;
+	color: #fe415f;
+}
+.customer_service_online h4{
+	/*font-weight: 200;*/
+	color: #585858;
+}
+.customer_service .server_num li{
+	height: 40px;
+	line-height: 40px;
+	margin-left: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.customer_service .server_num .person{
+	/*color: #ff2d52;*/
+	font-size:24px;
+	font-weight: 200;
+}
+.customer_service .server_num .detail_person {
+	font-size: 14px;
+	/*font-weight: bold;*/
+	padding-left: 10px;
+	color: #585858;
+}
+.TelPhone {
+	width: 252px;
+	height: 104px;
+	border-top: 1px solid #E2E2E2;
+	margin: 30px 25px;
+}
+.TelPhone .TelPhone_num {
+	margin-top:30px;
+}
+.specialTel .specialNum {
+	font-weight: 500;
+}
+
+.TelPhone .bottomNum {
+	margin-top: 10px;
+	font-weight: 500;
+	font-size: 30px;
+	color: #FF0000;
+}

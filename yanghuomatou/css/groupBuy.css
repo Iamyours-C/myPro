@@ -1,0 +1,177 @@
+.nav_classify .main_nav {
+    background: #EC193E;
+}
+/*内容开始*/
+
+.bgImg img {
+	width: 100%;
+	height: 300px;
+}
+.buylist {
+	width: 100%;
+	height: 40px;
+	background: #fff9f5;
+}
+.nav-Lists {
+	height: 40px;
+	line-height: 40px;
+}
+.nav-Lists li {
+	float: left;
+	margin-left: 32px;
+}
+.nav-Lists a:hover {
+	color: #FF2D52;
+}
+.nav-Lists li:first-child {
+	margin-left: 0;
+}
+.nav-list a{
+	color: #FF2D52;
+}
+/*上新*/
+.refreshList {
+	width: 100%;
+	height: 40px;
+	line-height: 36px;
+	background: #ededed;
+	padding: 2px 0;
+	/*background:red;*/
+}
+.newTips li {
+	float: left;
+	width:90px;
+	height: 32px;
+	cursor: pointer;
+	border-right: 1px solid #ccc;
+	padding-left:20px;
+	color: #666666;
+}
+.newTips li:first-child {
+	padding-left: 0;
+}
+.newTips li a{
+	display: inline-block;
+	width: 54px;
+	height: 22px;
+	line-height: 22px;
+	background: #FF2D52;
+	text-align: center;
+	color: #fff;
+}
+.newTips li:hover {
+	color: #FF2D52;
+}
+/*团购商品列表*/
+.group_list {
+	width: 232px;
+	border: 1px solid #E2E2E2;
+	padding: 10px;
+	margin: 20px 8px 0 0;
+	position: relative;
+}
+.group_list_Img {
+	text-align: center;
+}
+.group_list_Img img {
+	width: 210px;
+	height: 210px;
+}
+.buyExp {
+	color: #ff92a5;
+	height: 35px;
+	padding-top: 5px;
+}
+.buyPro {
+	width: 66px;
+	height: 8px;
+	border: 1px solid #ff92a5;
+	border-radius: 4px;
+	margin-top: 6px;
+	position: relative;
+}
+.innerPro {
+	width: 30px;
+	height: 6px;
+	background: #ff92a5;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.detailPrice {
+	height: 22px;
+	line-height: 22px;
+}
+/*鼠标移动效果*/
+.mouveCover {
+	width: 232px;
+	height: 324px;
+	display: none;
+	border: 2px solid #E2E2E2;
+	position:absolute ;
+	top: -1px;
+	left: -1px;
+}
+.group_list:hover .mouveCover {
+	display: block;
+	border-color: #FF2D52;
+}
+.groupNow {
+	width: 232px;
+	height: 40px;
+	background: #FF2D52;
+	text-align: center;
+	line-height: 40px;
+	display: none;
+	position: absolute;
+	bottom: 0;
+	right: -1px;
+}
+.group_list:hover .groupNow {
+	display: block;
+	color: #fff;
+	font-size: 16px;
+}
+/*已抢完*/
+.overGroup {
+	width: 80px;
+	height: 80px;
+	border-radius:50%;
+	background: #343434;
+	opacity: 0.5;
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	text-align: center;
+	line-height: 80px;
+	color: #fff;
+	transform: translateX(-50%);
+}
+/*翻页按钮*/
+.changeButton {
+	height: 74px;
+	padding: 20px 0;
+}
+.btns {
+	width: 356px;
+	height: 30px;
+	margin-top: 20px;
+}
+.btns a {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #E2E2E2;
+	border-radius: 3px;
+	margin-left: 7px;
+	text-align: center;
+	line-height: 28px;
+}
+.btns a:first-child,
+.btns a:last-child {
+	width: 66px;
+}
+.btns a:hover {
+	color: #fff;
+	background: #FF2D52;
+}

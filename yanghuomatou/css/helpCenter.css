@@ -1,0 +1,43 @@
+.nav_classify .main_nav {
+    background: #EC193E;
+}
+/*坐标*/
+.coordinates {
+	height:50px;
+	line-height: 50px;
+}
+/*购物指南列表*/
+.helpTips {
+	width: 218px;
+	border: 1px solid #E2E2E2;
+}
+.helpTips li {
+	height: 50px;
+	padding: 12px 20px;
+	border-bottom: 1px solid #E2E2E2;
+}
+.helpTips li:last-child {
+	border-bottom: 0;
+}
+.helpGuides {
+	width: 958px;
+	margin-left: 20px;
+	border: 1px solid #E2E2E2;
+}
+/*指南标题*/
+.guidTitle {
+	height: 50px;
+	padding: 10px;
+    padding-left: 20px;
+	border-bottom: 1px dotted #E2E2E2;
+}
+.guideBegin{
+	padding: 20px;
+	padding-top: 0;
+}
+.guideList li:first-child{
+	padding: 30px 0 20px 0;
+}
+.guideList li{
+	line-height: 20px;
+}

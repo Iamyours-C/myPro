@@ -1,0 +1,391 @@
+/*会员中心*/
+.vipCenter {
+	border: 1px solid #E2E2E2;
+}
+/*left*/
+.vipCenter .vipCenter_L {
+	width: 246px;
+}
+.left_head {
+	height: 59px;
+	background: #fff9f5;
+	line-height: 59px;
+	border-bottom: 1px solid #E2E2E2;
+}
+.infoLists {
+	padding: 0 20px;
+}
+.Lists {
+	padding: 20px 15px;
+	line-height: 20px;
+	border-bottom: 1px solid #E2E2E2;
+	cursor: pointer;
+}
+.tip.on {
+	color: #FF2D52;
+}
+
+.Lists li:first-child {
+	list-style-type: square;
+}
+.Lists:last-child {
+	border-bottom: 0;
+}
+/*right*/
+.vipCenter_R {
+	padding: 15px;
+	padding-right: 0;
+	padding-top: 0;
+	width: 950px;
+	display: none;
+}
+.vipCenter_R.show {
+	display: block;
+}
+.infoHead {
+	width: 918px;
+	height: 156px;
+	border: 1px solid #E2E2E2;
+	background: #fff9f5;
+	padding: 20px;
+}
+.memberPic {
+	width: 118px;
+	height: 118px;
+	line-height: 120px;
+	border-radius: 50%;
+	vertical-align: middle;
+	overflow: hidden;
+	text-align: center;
+	background: lightblue;
+	/*margin-top: 20px;*/
+}
+.memberPic img {
+	max-width: 118px;
+	max-height: 118px;
+	vertical-align: middle;
+	
+}
+.detail_Info {
+	margin: 15px 0 0 10px;
+}
+.recharge {
+	width: 48px;
+	height: 26px;
+	display: inline-block;
+	background: #ff2d52;
+	text-align: center;
+	line-height: 26px;
+	border-radius: 3px;
+}
+.recharge {
+	color: #fff;
+}
+.recharge:hover {
+	background:#ec193e ;
+}
+.inforight {
+	margin-left: 90px;
+	margin-top: 15px;
+	text-align: center;
+}
+.infoHead li {
+	float: left;
+	width: 80px;
+	margin-right:20px;
+	line-height: 22px;
+}
+/*内容开始*/
+.showList {
+	width: 452px;
+	height: 198px;
+	border: 1px solid #E2E2E2;
+	margin-top: 20px;
+	margin-right: 13px;
+}
+
+.showList  .list_title {
+	height: 40px;
+	line-height: 40px;
+	background: #fff9f5;
+	padding: 0 15px 0 20px;
+}
+.goodsLists .btnL,.goodsLists .btnR {
+	width: 22px;
+	height: 54px;
+	line-height: 52px;
+	border-radius: 3px;
+	text-align: center;
+	border: 1px solid #E2E2E2;
+	margin-top: 50px;
+}
+.goodsLists a {
+	color: #999;
+}
+.listCenter {
+	width: 386px;
+	height: 125px;
+	overflow: hidden;
+}
+
+.listCenter img {
+	width: 105px;
+	height: 105px;
+}
+.goodslist {
+	margin-right: 18px;
+}
+.goodslist:first-child {
+	margin-left: 17px;
+}
+.theLists {
+	width: 930px;
+}
+/*首页结束*/
+
+/*积分开始*/
+.myIntegral {
+	width: 920px;
+	height: 54px;
+	line-height: 53px;
+	padding-top: 0;
+	border-bottom: 1px solid #CCCCCC;
+}
+.myIntegral p {
+	width: 100px;
+	border-bottom: 2px solid #FF2D52;
+}
+.exp_lists {
+	width: 920px;
+	height: 178px;
+	line-height: 22px;
+	background: #fff9f5;
+	border: 1px solid #E2E2E2;
+	padding: 15px 0 20px 20px;
+	box-sizing: border-box;
+}
+.goExchange {
+	width: 60px;
+	height: 26px;
+	display: inline-block;
+	background: #FF2D52;
+	color: #fff;
+	text-align: center;
+	line-height: 26px;
+	cursor: pointer;
+	border-radius: 3px;
+	margin-left: 10px;
+}
+.exp_top {
+	padding-bottom: 8px;
+}
+/*兑换记录*/
+.exc_record {
+	width: 920px;
+	height: 270px;
+	border: 1px solid #E2E2E2;
+}
+.exc_record .record_header {
+	width: 100%;
+	height: 40px;
+	background: #fff9f5;
+	line-height: 39px;
+	padding: 0 160px;
+}
+.record_header .header {
+	margin-right: 258px;
+}
+.record_header .header:nth-child(3n){
+	margin-right:0;
+}
+/*兑换数据*/
+.exc_data li {
+	padding-left: 115px;
+	height: 45px;
+	line-height: 44px;
+	border-top: 1px dotted #E2E2E2;
+}
+.exc_data li:first-child {
+	border-top: 0;
+}
+.exc_txt {
+	display: inline-block;
+	width: 264px;
+	text-align: center;
+	padding-left: 182px;
+}
+.numberOf {
+	display: inline-block;
+	width: 264px;
+	text-align: center;
+	padding-left: 210px;
+}
+/*积分结束*/
+
+/*我的优惠券*/
+.coupons {
+	width: 920px;
+	height: 260px;
+	border: 1px solid #E2E2E2;
+}
+.coupons .coupons_head {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #fff9f5;
+}
+.coupons_head a {
+	display: inline-block;
+	width: 86px;
+	text-align: center;
+}
+.coupons_Lists {
+	padding: 15px;
+	box-sizing: border-box;
+}
+.coupons_List {
+	width: 285px;
+	height: 182px;
+	position: relative;
+	overflow: hidden;
+	margin-right: 16px;
+}
+.coupons_Lists .coupons_List:nth-child(3n) {
+	margin-right: 0;
+}
+.coupons_detail {
+	width: 100%;
+	height: 105px;
+	border: 1px solid #E2E2E2;
+	border-bottom: 1px dotted #E2E2E2;
+}
+.coupons_detail .coupons_left {
+	width: 100px;
+	height: 105px;
+	text-align: center;
+	line-height: 105px;
+}
+.coupons_detail .coupons_right {
+	height: 105px;
+	line-height: 20px;
+}
+.coupons_bottom {
+	text-align: center;
+	height: 75;
+	line-height: 75px;
+	border: 1px solid #E2E2E2;
+	border-top: 0;
+}
+.coupons_bottom .useIt {
+	display: inline-block;
+	width: 140px;
+	height: 38px;
+	border-radius: 25px;
+	text-align: center;
+	line-height: 38px;
+	color: #fff;
+	background: #ff92a5;
+}
+/*遮盖圆*/
+.cover_L {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background: #fff;
+	border-radius: 50%;
+	border-right: 1px dotted #999999;
+	position: absolute;
+	left:-17px;
+	top: 50%;
+}
+.cover_R {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background: #fff;
+	border-radius: 50%;
+	border-left: 1px dotted #999999;
+	position: absolute;
+	right:-17px;
+	top: 50%;
+}
+/*实名认证开始*/
+.cerRule {
+	width: 920px;
+	border: 1px solid #E2E2E2;
+	background: #fff9f5;
+	padding: 20px;
+}
+.validate {
+	width: 920px;
+	padding: 20px 0;
+	display: none;
+}
+.validate.on {
+	display: block;
+}
+.validation {
+	height: 38px;
+	line-height: 36px;
+	font-size: 14px;
+}
+.inputName {
+	width: 300px;
+	height: 36px;
+	border: 1px solid #E2E2E2;
+	padding-left: 10px;
+}
+.inputName input {
+	width: 280px;
+	height: 32px;
+}
+/*添加照片*/
+.addPic {
+	width: 198px;
+	height: 126px;
+	border: 1px solid #E2E2E2;
+	background: #fff9f5;
+	text-align: center;
+	line-height: 124px;
+	cursor: pointer;
+}
+.addPicture {
+	text-align: center;
+}
+.modelPic img {
+	width: 61px;
+	height: 40px;
+}
+/*立即认证*/
+.bottomExp {
+	width: 600px;
+}
+.bottomExp a {
+	display: inline-block;
+	width: 96px;
+	height: 40px;
+	background: #FF2D52;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 3px;
+	margin-top: 30px;
+}
+.bottomExp p{
+	line-height: 20px;
+}
+.on {
+	display: none;
+}
+/*已认证*/
+.truePic {
+	width: 198px;
+	height: 126px;
+	float: left;
+	margin-right: 20px;
+}
+.truePic img {
+	width: 198px;
+	height: 126px;
+}

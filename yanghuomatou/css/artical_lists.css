@@ -1,0 +1,88 @@
+.nav_classify .main_nav {
+    background: #EC193E;
+}
+.coordinates {
+	height:50px;
+	line-height: 50px;
+}
+/*内容开始*/
+.list_left {
+	width: 960px;
+	border: 1px solid #E2E2E2;
+}
+.artical_list {
+	padding: 0 30px;
+	border-bottom: 1px solid #E2E2E2;
+}
+.title {
+	height: 62px;
+	line-height: 62px;
+	border-bottom: 1px dotted #E2E2E2;
+}
+.list_bottom img {
+	width: 200px;
+	height: 150px;
+	float: left;
+	/*margin-right: 20px;*/
+}
+.list_bottom p {
+	width: 664px;
+	line-height: 22px;
+	float: left;
+	margin-left: 30px;
+}
+.list_bottom a {
+	display: inline-block;
+	margin: 20px 0 0 30px;
+}
+.artical_list:last-child {
+	border-bottom: 0;
+}
+/*翻页按钮*/
+.changeButton {
+	width: 960px;
+	height: 74px;
+	padding: 20px 0;
+}
+.changeButton .btns {
+	width: 356px;
+	height: 30px;
+}
+.changeButton .btns a {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #E2E2E2;
+	border-radius: 3px;
+	margin-left: 7px;
+	text-align: center;
+	line-height: 28px;
+}
+.changeButton .btns a:first-child,
+.changeButton .btns a:last-child {
+	width: 66px;
+}
+.changeButton .btns a:hover {
+	color: #fff;
+	background: #FF2D52;
+}
+.artical_right {
+	width: 220px;
+	border: 1px solid #E2E2E2;
+}
+.artical_right p{
+	height: 39px;
+	background: #fff9f5;
+	padding: 15px;
+	border-bottom: 1px solid #E2E2E2;
+}
+.artical_lists {
+	padding: 20px;
+}
+.artical_lists li {
+	list-style-type: square;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	line-height: 24px;
+}

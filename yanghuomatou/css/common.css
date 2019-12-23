@@ -1,0 +1,36 @@
+/*重置浏览器样式*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "微软雅黑",arial;
+}
+
+body {
+	font-size: 12px;
+	color: #333333;
+	min-width: 1200px;
+}
+
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #333333;
+	background-color: transparent;
+	cursor: pointer;
+}
+.content {
+	width: 1200px;
+	margin: 0 auto;
+	
+}
+:focus{
+	outline: none;
+}
+
+
+em,i {
+	font-style: normal;
+}

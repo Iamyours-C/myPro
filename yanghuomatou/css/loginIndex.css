@@ -1,0 +1,199 @@
+
+/*登录和注册*/
+.LoginRegs {
+	margin-top: 35px;
+	margin-bottom: 96px;
+	height: 480px;
+	background: url(../img/login_bg.png) no-repeat;
+	background-image: 100%;
+	position: relative;
+}
+/*注册*/
+.LoginRegs .Register {
+	width: 326px;
+	height: 420px;
+	background: #fff;
+	position: absolute;
+	top: 30px;
+	right: 220px;
+	padding: 24px 15px;
+	display: none;
+}
+
+/*电话*/
+.Register .Tel,
+.verifyCode .getVerify,
+.verifyCode .verify,
+.Register .pwd,
+.Register .confirm
+{
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #E2E2E2;
+	position: relative;
+}
+/*
+ * 手机号Tel
+ * 确认密码pwd
+ * 输入密码confirm
+ */
+.Register .Tel input,
+.Register .pwd input,
+.Register .confirm input{
+	width: 254px;
+}
+/*获取验证码*/
+.verifyCode .getVerify {
+	width: 182px;
+}
+.verifyCode .getVerify input {
+	width: 140px;
+}
+/*验证码*/
+.verifyCode .verify {
+	width: 106px;
+	margin-left: 8px;
+	background: #ff607c;
+	text-align: center;
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+}
+.verifyCode .verify span{
+	color: #fff;
+}
+/*.verifyCode .verify:hover {
+	background: #FF2D52;
+}*/
+.verify.disabled {
+	background: #ccc;
+	color: #fff;
+	cursor: not-allowed;
+}
+/*阅读协议read*/
+.Register .read {
+	height: 65px;
+	line-height: 65px;
+}
+.Register .read input {
+	width: 13px;
+	height: 13px;
+	vertical-align: middle;
+}
+.protocol {
+	color: #ff5770;
+}
+/*立即注册*/
+.Register .immediately {
+	height: 40px;
+	background: #FF2D52;
+	text-align: center;
+	line-height: 40px;
+}
+.Register .immediately a {
+	color: #fff;
+}
+/*登陆*/
+.LoginRegs .Login_outer {
+	width: 342px;
+	height: 362px;
+	background: #fff;
+	position: absolute;
+	top: 59px;
+	right: 220px;
+	padding: 24px 15px;
+}
+.changePage.on{
+	display: block;
+}
+/*立即注册*/
+.LoginRegs .Login_title .gorgst {
+	color: #FF2D52;
+}
+/*右箭头*/
+.LoginRegs .Login_title .right_arrow {
+	display: inline-block;
+	width: 18px;
+	height: 17px;
+	border-radius: 50%;
+	background: #FF2D52;
+	color: #fff;
+	line-height: 17px;
+	text-align: center;
+}
+/*警告*/
+.LoginRegs .Login_worn {
+	width: 100%;
+	height: 25px;
+	line-height: 24px;
+	border: 1px solid #ff92a5;
+}
+/*用户名和密码*/
+.LoginRegs .Login_userName,.LoginRegs .Login_pwd {
+	width: 100%;
+	height: 40px;
+	line-height: 39px;
+	border: 1px solid #ccc;
+	margin-top: 15px;
+	color: #999;
+}
+.Login_userName input,.Login_pwd input {
+	width: 260px;
+	height: 34px;
+	border-left: 1px solid #ccc;
+	margin-bottom: 3px;
+	padding-left: 15px;
+}
+/*自动登陆*/
+.LoginRegs .automaticLogin {
+	height: 30px;
+	line-height: 10px;
+	vertical-align: middle;
+	margin-top: 15px;
+}
+.automaticLogin input {
+	width: 13px;
+	height: 13px;
+	line-height: 13px;
+	vertical-align: middle;
+}
+.automaticLogin .auto_login {
+	width: 50px;
+	height: 13px;
+	line-height: 13px;
+}
+.automaticLogin .forget_pwd {
+	width: 60px;
+	height: 13px;
+	line-height: 13px;
+	float: right;
+}
+.Login_outer .login_btn {
+	height: 36px;
+	line-height: 36px;
+	text-align:center;
+	background: #FF2D52;
+}
+
+.Login_outer .login_btn a{
+	color: #fff;
+}
+
+/*第三方登陆*/
+.others_login {
+	height: 50px;
+}
+.Login .others_login .txt {
+	color: #999;
+}
+/*验证时label错误提示*/
+label.error {
+	width: 300px;
+	height: 27px;
+    line-height: 20px;
+    color: red;
+    position: absolute;
+    top: -28px;
+    left: 5px;
+    background: url(../img/validator.png) no-repeat;
+}

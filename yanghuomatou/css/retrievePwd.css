@@ -1,0 +1,155 @@
+.rePwd {
+	border-top:1px solid #FF2D52;
+}
+.header {
+	width: 701px;
+	height: 220px;
+	padding:50px 20px;
+	box-sizing: border-box;
+}
+.step{
+	width: 700px;
+	margin: 0px auto;
+}
+.round {
+	width: 662px;
+	height: 60px;
+	margin-right: 180px;
+}
+.round .serial {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	line-height: 35px;
+	background:#ccc ;
+	box-shadow: 1px 1px 9px 1px #ccc;
+}
+.steptip {
+	width: 662px;
+}
+.linkline {
+	width: 262px;
+	height: 2px;
+	background: #ccc;
+}
+.steptip .like {
+	margin-right: 226px;
+}
+.steptip .like:first-child {
+	padding-left: -20px;
+}
+
+.serial.on {
+	background: #FF2D52;
+	color: #fff;
+	box-shadow: 2px 2px 8px 3px #ffc0cb;
+}
+.linkline.active{
+	background: #FF2D52;
+}
+
+/*步骤1*/
+
+/*验证信息*/
+.information {
+	width: 701px;
+	height: 248px;
+	padding: 35px;
+	padding-left: 140px;
+	display: none;
+	text-align: center;
+}
+.information.on{
+	display: block;
+}
+.information .verifyTel {
+	height: 50px;
+}
+.left {
+	width: 60px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.center {
+	width: 305px;
+	height: 40px;
+	border: 1px solid #E2E2E2;
+}
+.center input {
+	width: 263px;
+}
+/*验证码*/
+.verifyNum .center {
+	width: 182px;
+	height: 40px;
+	border: 1px solid #E2E2E2;
+}
+.verifyNum .center input {
+	width: 140px;
+}
+.verifyNum .getIt {
+	width: 105px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: #FF2D52;
+}
+.verifyNum .getIt a{
+	color: #fff;
+}
+/*下一步*/
+.nextStep {
+	width: 302px;
+	height: 40px;
+	background: #FF2D52;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 75px;
+}
+.nextStep a {
+	color: #fff;
+}
+/*步骤2*/
+.resetPwd {
+	margin-top: 80px;
+	padding-left: 40px;
+}
+.newPwd ,.confirmPwd{
+	height: 40px;
+	width: 600px;
+}
+.pwdtxt {
+	width: 90px;
+	height: 40px;
+	line-height: 40px;
+	text-align: right;
+	padding-right: 20px;
+}
+.inputPwd {
+	width: 302px;
+	border: 1px solid #E2E2E2;
+	padding-left: -10px;
+}
+.inputPwd input {
+	width: 212px;
+}
+.resetPwd .update{
+	width: 302px;
+	height: 40px;
+	background: #FF2D52;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 92px;
+}
+.resetPwd .update a {
+	color: #fff;
+}
+/*完成修改*/
+.finishIt {
+	width: 500px;
+	height: 300px;
+	margin: 80px 0 0 60px;
+}
